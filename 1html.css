@@ -1,0 +1,89 @@
+.window{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background:url("BACKGROUND//b5.jpg") no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    outline: none;
+    color: white;
+    margin: 0px;
+
+    
+}
+
+.login{
+    outline: none;
+    backdrop-filter:blur(20px);
+    position: relative;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 20px 20px 50px 10px #0f1617;
+    height: 18rem;
+    width: 20rem;
+    bac
+}
+
+.LOGIN-HEADING{
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-decoration:underline;
+}
+
+
+.login-text-box p{
+    font-size: 0.9rem;
+    margin: 0px 20px;
+    
+
+}
+
+.login-text-box input.login-dabba{
+    border-radius: 10px;
+    margin: 10px 8px 10px 8px;
+    height: 1.8rem;
+    width: 19em;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: transparent;
+    outline: none;
+
+}
+.login-text-box input.login-dabba::placeholder{
+    color: whitesmoke
+
+}
+.remember-forgot{
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.9rem;
+    
+    margin: 8px 10px;
+}
+
+.login-button{
+    position: relative;
+    outline: none;
+    left: 38%;
+    height: 2rem;
+    width: 4.5rem;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.login-button:hover{
+    width: 5.5rem;
+    left: 35.5%;
+    box-shadow: 5px 5px 20px;
+}
+
+.login-button:active{
+    width: 5.5rem;
+    
+    left: 35.5%;
+    box-shadow: 0px 10px 20px;
+}
