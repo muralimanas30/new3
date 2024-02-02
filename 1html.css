@@ -3,7 +3,7 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background:url("BACKGROUND//b5.jpg") no-repeat;
+    background:url("BACKGROUND/b5.jpg") no-repeat;
     background-size: cover;
     background-size: 100% 100%;
     outline: none;
@@ -23,7 +23,6 @@
     box-shadow: 20px 20px 50px 10px #0f1617;
     height: 18rem;
     width: 20rem;
-    bac
 }
 
 .LOGIN-HEADING{
